@@ -1,0 +1,32 @@
+{
+  "name": "@zumerbox/npm-init",
+  "version": "0.1.2",
+  "description": "A tool for init package.json checking npm name availability.",
+  "main": "./bin/index.js",
+  "type": "module",
+  "bin": {
+    "npm-init": "bin/index.js"
+  },
+  "author": "Juan Martin",
+  "license": "MIT",
+  "scripts": {
+    "postversion": "npx @zumerbox/changelog && git add CHANGELOG.md && git commit -m \"Bumped version\" && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zumerlab/zumerbox-npm-init.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zumerlab/zumerbox-npm-init/issues"
+  },
+  "homepage": "https://github.com/zumerlab/zumerbox-npm-init#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "https-proxy-agent": "^7.0.4",
+    "node-fetch": "^3.3.2",
+    "readline-sync": "^1.4.10",
+    "validate-npm-package-name": "^5.0.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
