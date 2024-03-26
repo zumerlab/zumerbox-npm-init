@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. 
 
+#### [v0.1.0](https://github.com/zumerlab/zumerbox-npm-init/compare/v0.1.0...v0.1.0)
+
+- Bumped version [`63993d9`](https://github.com/zumerlab/zumerbox-npm-init/commit/63993d9275d02610cdaad8aca7765e2d8bd893b7)
+
 #### v0.1.0
 
 > 26 March 2024
