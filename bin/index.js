@@ -11,7 +11,9 @@ export async function validateAndInitNPM() {
   const defaultAuthor = await getDefaultAuthorName()
 
   // Prompt for package name
-  const packageName = readlineSync.question('To start with, enter a package name for your project: ')
+  const packageName = readlineSync.question(
+    'To start with, enter a package name for your project: '
+  )
 
   // Prompt for publishing on npm
   const publishOnNpm = readlineSync.question(
@@ -172,6 +174,5 @@ async function validateAndInitNpmWithPublish(packageName, proxyURL, author) {
     console.error(error)
   }
 }
-
 
 validateAndInitNPM()

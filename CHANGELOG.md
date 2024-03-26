@@ -1,6 +1,6 @@
 ### Changelog
 
-All notable changes to this project will be documented in this file. 
+All notable changes to this project will be documented in this file.
 
 #### [v0.1.0](https://github.com/zumerlab/zumerbox-npm-init/compare/v0.1.0...v0.1.0)
 

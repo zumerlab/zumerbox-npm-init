@@ -10,7 +10,9 @@
   "author": "Juan Martin",
   "license": "MIT",
   "scripts": {
-    "postversion": "npx @zumerbox/changelog && git add CHANGELOG.md && git commit -m \"Bumped version\" && git push --follow-tags"
+    "prerelease":"npx @zumerbox/js-lint --fix && npx @zumerbox/code-format --write",
+    "release":"npx @zumerbox/release",
+    "postversion": "npx @zumerbox/changelog && git add . && git commit -m \"Bumped version\" && git push --follow-tags"
   },
   "repository": {
     "type": "git",
