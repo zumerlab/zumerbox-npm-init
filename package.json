@@ -1,6 +1,6 @@
 {
   "name": "@zumerbox/npm-init",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A tool for init package.json checking npm name availability.",
   "main": "./bin/index.js",
   "type": "module",
