@@ -22,4 +22,3 @@ npx @zumerbox/npm-init
 - **Package validation**: Validates the package name to ensure it meets npm's requirements.
 - **Package name availabity**: Verify the package name is available on npm.
 - **Proxy support**: Supports configuring proxy settings for environments behind a proxy.
-
