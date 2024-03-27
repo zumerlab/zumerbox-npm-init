@@ -1,6 +1,14 @@
 ### Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. 
+
+#### [v0.1.2](https://github.com/zumerlab/zumerbox-npm-init/compare/v0.1.1...v0.1.2)
+
+> 27 March 2024
+
+- Chore: update toold and docs [`5679a0c`](https://github.com/zumerlab/zumerbox-npm-init/commit/5679a0c00ae6c155b0a9a895bdbf8d4408cdb8ff)
+- Bumped version [`cd9d2c9`](https://github.com/zumerlab/zumerbox-npm-init/commit/cd9d2c9e283a6888358071be6392482aeff00d05)
+- Chore: update formated files [`8b014a3`](https://github.com/zumerlab/zumerbox-npm-init/commit/8b014a3fc8b816a44b23fd640a195cbc4b4976ff)
 
 #### [v0.1.1](https://github.com/zumerlab/zumerbox-npm-init/compare/v0.1.0...v0.1.1)
 
