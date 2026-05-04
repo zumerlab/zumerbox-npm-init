@@ -1,5 +1,8 @@
 # @zumerbox/npm-init
 
+> [!WARNING]
+> **DEPRECATED.** This package is no longer maintained.
+
 A tool for create or update a package.json checking if the package name is valid and available on npm.
 
 Refer to the [ZumerBox bundle](https://github.com/zumerlab/zumerbox) for more information and tools.
